@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <title>World Clocks</title>
+    <meta name="description" content="HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites. Spend more time developing and less time reinventing the wheel.">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles.css">
+    <!--[if IE]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
+    <script type="text/javascript" src="coolclock.js"></script>
+    <script type="text/javascript" src="moreskins.js"></script>
+</head>
+<body onload="CoolClock.findAndCreateClocks()">
+    <h1>World Clocks</h1>
+
+    <table>
+        <tbody>
+        <tr>
+        <td align="center">New York<br>
+            <canvas class="CoolClock:swissRail:90:noSeconds:-4 leftRightPad" id="c6" width="60" height="60" style="width: 60px; height: 60px;"></canvas>
+        </td>
+        <td align="center">London<br>
+            <canvas class="CoolClock:swissRail:90:noSeconds:+1 leftRightPad" id="c7" width="60" height="60" style="width: 60px; height: 60px;"></canvas>
+        </td>
+        <td align="center">Townsville<br>
+            <canvas class="CoolClock:swissRail:90:noSeconds:+10 leftRightPad" id="c8" width="60" height="60" style="width: 60px; height: 60px;"></canvas>
+        </td>
+    </tr></tbody></table>
+</html>
